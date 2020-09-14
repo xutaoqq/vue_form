@@ -1,5 +1,7 @@
 # vue_form
 vue element表单生成组件
+
+```
 1.引入该组件与element
 
 2.属性  :formList  在父组件传入要渲染的表单列表
@@ -34,3 +36,4 @@ formChange(key, val) {
     console.log(key, val)
     console.log(this.formData)
 },
+```
